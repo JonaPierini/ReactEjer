@@ -8,6 +8,7 @@ import { Formulario } from './Formulario';
 import { HookFormulario } from './HookFormulario';
 import { AddList } from './AddList';
 import { AddListNoObjeto } from './AddListNoObjeto';
+import { CountUndef } from './CountUndef';
 
 
 
@@ -19,7 +20,7 @@ function App(): React.JSX.Element {
 
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      <AddListNoObjeto></AddListNoObjeto>
+      <CountUndef></CountUndef>
     </SafeAreaView>
 
   )
